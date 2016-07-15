@@ -63,6 +63,11 @@ exports.config = {
 
       linenos: true,
     },
+
+    elmBrunch: {
+      mainModules: ['web/static/elm/PhoenixBattleship.elm'],
+      outputFolder: 'web/static/elm'
+    }
   },
 
   modules: {
